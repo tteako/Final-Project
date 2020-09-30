@@ -49,7 +49,7 @@
 }
 .banner-text h1 {
     font-size: 70px;
-    white-space: wrap;
+    white-space: nowrap;
     color: #fff;
     margin-bottom: 15px;
    
@@ -60,6 +60,7 @@
     color: #fff;
     margin-bottom: 15px;
     line-height: 2em;
+    text-indent: 20px;
    
 }
 .button {
