@@ -19,6 +19,9 @@
     display: inline-block;
     color: #fff;
 }
+.nav-li a {
+    color: #fff;
+}
 .nav-ul {
     display: flex;
     flex-direction: row;
@@ -39,12 +42,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 .banner-text h1 {
     font-size: 70px;
-    white-space: nowrap;
+    white-space: wrap;
     color: #fff;
     margin-bottom: 15px;
    
@@ -59,12 +64,10 @@
 }
 .button {
     font-size: 18px;
-  
-}
-.button {
     width: 150px;
     height: 50px;
     background-color: #E76F51;
     text-align: center;
     padding: 15px;
+    border-radius: 35px;
 }
