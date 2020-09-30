@@ -9,7 +9,10 @@
     height: 100%;
     background-position: bottom center;
     background-size: cover;
-    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .nav-li {
     display: inline-block;
@@ -23,5 +26,24 @@
 .logo {
     display: flex;
     justify-content: space-between;
-    padding: 25px;
+    align-items: center;
+    padding: 30px;
+}
+.logo a {
+    color: #fff;
+    margin-right: 20px;
+}
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.button {
+    width: 150px;
+    height: 50px;
+    background-color: #E76F51;
+    text-align: center;
+    padding: 15px;
 }
