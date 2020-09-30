@@ -1,3 +1,5 @@
+/* Header Style */
+
 .header-wrapper {
     height: 900px;
     display: flex;
@@ -14,6 +16,7 @@
     background-position: bottom center;
     background-size: cover;
     position: relative;
+    border-radius: 0px 0px 70px 70px;
 }
 .nav-li {
     display: inline-block;
@@ -71,4 +74,28 @@
     text-align: center;
     padding: 15px;
     border-radius: 35px;
+}
+
+/* middle section */
+.four-box {
+    position: absolute;
+    bottom: -115px;
+    left: 50px;
+    display:flex;
+    flex-direction: row;
+   
+
+}
+.white-middle {
+    width: 250px;
+    height: 150px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+.white-middle img {
+    width: 60px;
 }
