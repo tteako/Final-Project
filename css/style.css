@@ -181,6 +181,41 @@ body {
     margin-left:20px;
     margin-bottom: 20px;
     border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+
+}
+.button-img {
+    position: relative;
+    
+}
+.button-img img{
+    width: 180px;
+}
+.cost {
+    position: absolute;
+    bottom: -18px;
+    left: 30px;
+    width: 120px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 30px;
+    color: #E76F51;
+    text-align: center;
+    line-height: 30px;
+}
+.read-more {
+    width: 180px;
+
+}
+.read-more-btn {
+    background-color: #8D8D8D;
+    width: 90px;
+    height: 40px;
+    color: #8D8D8D;
+    font-size 18px;
 
 }
