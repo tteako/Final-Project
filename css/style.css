@@ -27,7 +27,7 @@ body {
 }
 .nav-li a {
     color: #fff;
-    font-size: 18px;
+    font-size: 22px;
 }
 .nav-ul {
     display: flex;
@@ -109,10 +109,13 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.white-middle:nth-child(4){
+    margin-right: 0px;
+}
 .white-middle-child img {
     width: 60px;
     margin-top: 48px;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 .white-middle-child h4 {
     font-size: 18px;
