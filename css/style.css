@@ -1,5 +1,5 @@
 body {
-    background-color: #FAF4F2;
+    background-color: #F7E2DB;
 }
 /* Header Style */
 
@@ -28,6 +28,7 @@ body {
 .nav-li a {
     color: #fff;
     font-size: 22px;
+    text-transform: uppercase;
 }
 .nav-ul {
     display: flex;
@@ -43,6 +44,9 @@ body {
 .logo a {
     color: #fff;
     margin-right: 20px;
+}
+.sign a {
+    font-size: 18px;
 }
 .banner-text {
     position: absolute;
@@ -79,8 +83,11 @@ body {
     padding: 15px;
     border-radius: 35px;
 }
+.button:hover {
+    cursor: pointer;
+}
 
-/* middle section */
+/* four boxes */
 .four-box {
     position: absolute;
     bottom: -220px;
@@ -126,4 +133,36 @@ body {
     font-size: 16px;
     
     line-height: 20px ;
+}
+.four-box-bottom {
+    height: 250px;
+    width: 100%
+}
+/* middle div */
+.middle-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.middle-div h2 {
+    font-size: 40px;
+    line-height: 40px;
+    white-space: wrap;
+}
+.middle-div img {
+    margin-bottom: 20px;
+
+}
+
+/* Twelve box styles */
+.twelve-box {
+
+}
+.four-box {
+    width: 300px;
+    height: 400px;
+
 }
