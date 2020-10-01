@@ -192,6 +192,9 @@ body {
     position: relative;
     
 }
+.button-img:hover {
+    cursor: pointer;
+}
 .button-img img{
     width: 180px;
 }
@@ -208,14 +211,32 @@ body {
     line-height: 30px;
 }
 .read-more {
-    width: 180px;
+    width: 250px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
+.read-more h3 {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.read-more p {
+    text-indent: -20px;
+    text-align: center;
+}
 .read-more-btn {
-    background-color: #8D8D8D;
+    background-color: #E9E1E1;
     width: 90px;
     height: 40px;
     color: #8D8D8D;
     font-size 18px;
-
+    margin-top: 20px;
 }
+.read-more-btn:hover {
+    cursor: pointer;
+}
+
