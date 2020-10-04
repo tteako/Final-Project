@@ -242,9 +242,13 @@ body {
 .view-all-btn {
     width: 100%;
     background-color: #F7E2DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .view-all {
     width: 150px;
     height: 50px;
     border: 2px solid #E76F51;
+    border-radius: 25px;
 }
