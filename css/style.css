@@ -284,4 +284,33 @@ body {
     border-radius: 50px;
 
 }
+ /* Footer */
+ .footer-wrapper {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+ }
+ .about-us {
+     display: flex;
+     flex-direction: column;
+ }
+ .download {
+     display: inline-block;
 
+ }
+ .more-info {
+     display: flex;
+     flex-direction: row;
+ }
+ .get-know {
+     display: flex;
+     flex-direction: column;
+ }
+ .plan {
+    display: flex;
+    flex-direction: column;
+}
+.let-help {
+    display: flex;
+    flex-direction: column;
+}
