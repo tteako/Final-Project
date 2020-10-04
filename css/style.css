@@ -252,3 +252,19 @@ body {
     border: 2px solid #E76F51;
     border-radius: 25px;
 }
+.stay-in-touch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.email-us {
+    display: flex;
+    flex-direction: column;
+}
+.email-us h3 {
+    font-size: 40px;
+    font-weight: 900;
+}
+.stay-in-touch {
+    margin-top: 50px;
+}
