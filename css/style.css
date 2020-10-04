@@ -1,6 +1,8 @@
 body {
     background-color: #F7E2DB;
+    zoom: 75%;
 }
+
 /* Header Style */
 
 .header-wrapper {
@@ -170,6 +172,7 @@ body {
 .three-box-of-twelve {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 
 
 
