@@ -239,4 +239,12 @@ body {
 .read-more-btn:hover {
     cursor: pointer;
 }
-
+.view-all-btn {
+    width: 100%;
+    background-color: #F7E2DB;
+}
+.view-all {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #E76F51;
+}
