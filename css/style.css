@@ -230,6 +230,7 @@ body {
 .read-more p {
     text-indent: -20px;
     text-align: center;
+    white-space: wrap;
 }
 .read-more-btn {
     background-color: #E9E1E1;
