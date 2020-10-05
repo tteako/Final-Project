@@ -281,11 +281,14 @@ body {
 
 }
 .e-mail-btn {
-    background-image: url("../img/button.png");
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
+    
 
+}
+e-mail-btn1 {
+    background-image: url("../img/button.png");
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
 }
  /* Footer */
  .footer-wrapper {
