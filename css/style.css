@@ -1,6 +1,5 @@
 body {
     background-color: #F7E2DB;
-    
 }
 
 /* Header Style */
@@ -88,6 +87,9 @@ body {
 }
 .button:hover {
     cursor: pointer;
+    width: 300px;
+    height: 80px;
+    font-size: 40px;
 }
 
 /* four boxes */
@@ -235,7 +237,7 @@ body {
 }
 .read-more-btn {
     background-color: #E9E1E1;
-    width: 90px;
+    width: 150px;
     height: 40px;
     color: #8D8D8D;
     font-size 18px;
