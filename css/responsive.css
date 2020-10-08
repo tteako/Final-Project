@@ -1,0 +1,14 @@
+@media (max-width: 1200px) {
+    .four-box {
+        position: absolute;
+        bottom: -500px;
+        left: 20px;
+    }
+    .white-middle {
+        margin-right: 0px;
+        width: 150px;
+    }
+   .white-middle-child {
+     
+   }
+}
