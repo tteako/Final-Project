@@ -159,7 +159,6 @@ body {
 }
 .middle-div img {
     margin-bottom: 20px;
-
 }
 
 /* Twelve box styles */
@@ -195,8 +194,7 @@ body {
 
 }
 .button-img {
-    position: relative;
-    
+    position: relative;   
 }
 .button-img:hover {
     cursor: pointer;
@@ -260,9 +258,12 @@ body {
     border: 2px solid #E76F51;
     border-radius: 25px;
 }
+ 
+/* Stay in Touch */
 .stay-in-touch {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .email-us {
