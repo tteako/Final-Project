@@ -192,8 +192,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-
 }
 .button-img {
     position: relative;   
@@ -223,6 +221,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 .read-more h3 {
