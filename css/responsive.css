@@ -62,14 +62,23 @@
     }
     .white-middle {
         width: 160px;
+        padding: 10px;
 
     }
-    .white-middle h3 {
+    .white-middle h4 {
         font-size: 16px;
+        white-space: nowrap;
+    }
+    .white-middle p {
+        font-size: 12px;
     }
     .twelve-box-child {
         width: 240px;
         height: 300px;
         margin-right: 0px;      
    }
+   .permits-img {
+       height: 60px;
+   }
+   
 }
