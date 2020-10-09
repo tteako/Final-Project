@@ -39,7 +39,26 @@
 
 @media (max-width: 768px) {
     .nav-li {
-        margin-right: 20px;
+        margin-right: 30px;
+    }
+    .nav-li a {
+        font-size: 18px;
+    }
+    .nav-li:nth-child(n+5) {
+        display: none;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .burger-bar {
+        display: block;
+        font-size: 18px;
+        color: aliceblue;
+    }
+    .burger-bar:hover {
+        cursor: pointer;
     }
     .white-middle {
         width: 160px;
@@ -48,4 +67,9 @@
     .white-middle h3 {
         font-size: 16px;
     }
+    .twelve-box-child {
+        width: 240px;
+        height: 300px;
+        margin-right: 0px;      
+   }
 }

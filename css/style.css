@@ -31,6 +31,12 @@ body {
     font-size: 22px;
     text-transform: uppercase;
 }
+.nav-li a:hover {
+    color: brown;
+}
+.burger-bar {
+    display: none;
+}
 .nav-ul {
     display: flex;
     flex-direction: row;
