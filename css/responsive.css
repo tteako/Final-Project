@@ -18,3 +18,34 @@
        text-indent: 0px;
    }
 }
+
+@media (max-width: 1024px) {
+    .four-box {
+        position: absolute;
+        bottom: -220px;
+        left: 30px;
+    }
+    .white-middle {
+        margin-right: 15px;
+        width: 220px;
+    }
+    .twelve-box-child {
+        width: 400px;
+    }
+    .three-box-of-twelve {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-li {
+        margin-right: 20px;
+    }
+    .white-middle {
+        width: 160px;
+
+    }
+    .white-middle h3 {
+        font-size: 16px;
+    }
+}
