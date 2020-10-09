@@ -82,3 +82,31 @@
    }
    
 }
+
+@media (max-width: 680px) {
+    .white-middle img {
+        display: none;
+    }
+    .white-middle {
+        width: 150px;
+        height: 150px;
+        background-color: #FFD2C6;
+        margin-right: auto;
+    }
+}
+@media (max-width: 480px) {
+    .white-middle {
+        width: 300px;
+        height: 280px;
+
+    }
+    .white-middle img {
+        display: block;
+    }
+    .four-box {
+        position: absolute;
+        bottom: -1000px;
+        left: 50px;
+        
+    }
+}

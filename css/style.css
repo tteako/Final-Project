@@ -120,6 +120,9 @@ body {
     border-radius: 25px;
 
 }
+.white-middle:hover {
+    cursor: pointer;
+}
 
 .white-middle-child {
     max-width: 200px;
