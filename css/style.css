@@ -303,21 +303,15 @@ body {
 .stay-in-touch {
     margin-top: 50px;
 }
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
 .input-container {
     display: flex;
-    max-width: 500px;
+    max-width: 300px;
     width: 100%;
 
-}
-.e-mail {
-    
-    height: 60px;
-    border-radius: 15px;
-    border: none;
-}
-.e-mail::placeholder {
-    color: #8D8D8D;
-    font-size: 14px;
 }
 .icon {
     background-color: #FF8A6C;
@@ -326,21 +320,24 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 60px;
-}
-.icon {
     color: #fff;
 }
-.form-wrapper {
-    margin-top: 20px;
-    position: relative;
-    width: 516px;
+.e-mail {
+    padding: 10px;
+    height: 60px;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 15px;
+    border: none;
 }
-.button-wrapper {
-    position: absolute;
-    top: 5px;
-    right: 10px;
+.e-mail::placeholder {
+    color: #8D8D8D;
+    font-size: 14px;
+}
 
-}
+
+
+
  /* Footer */
  .footer-wrapper {
      margin-top: 100px;
