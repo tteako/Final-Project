@@ -11,13 +11,10 @@
     .twelve-box-child {
         width: 240px;
         height: 300px;
-        margin-right: 0px;
-        
+        margin-right: 0px;      
    }
    .read-more p {
        font-size: 14px;
        text-indent: 0px;
-       
-
    }
 }
