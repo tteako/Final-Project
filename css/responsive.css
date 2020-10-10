@@ -96,8 +96,9 @@
 }
 @media (max-width: 480px) {
     .white-middle {
-        width: 300px;
+        width: 80%;
         height: 280px;
+        margin: 0px;
 
     }
     .white-middle img {
@@ -105,8 +106,37 @@
     }
     .four-box {
         position: absolute;
-        bottom: -1000px;
-        left: 50px;
-        
+        bottom: -1100px;
+       margin-left: 30px; 
     }
+    .four-box-bottom {
+        height: 1120px;
+    }
+    .twelve-box-child {
+        width: 100%;
+        height: 300px;
+        margin-right: 0px; 
+        margin-left: 0px;     
+   }
+   .banner-text h1 {
+       font-size: 40px;
+   }
+   .nav-li a {
+       font-size: 15px;
+   }
+   .about-us {
+       display: none;
+   }
+   .stay-in-touch  {
+    
+       margin: 0 auto;
+       justify-content: center;
+   }
+   .camp-img {
+       width: 150px;
+   }
+
+   .middle-div {
+       padding: 0px;
+   }
 }
