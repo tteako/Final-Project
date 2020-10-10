@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Archivo';
+    src: url(../fonts/'Archivo-Regular.eot');
+    src: url(../fonts/'Archivo-Regular.eot?#iefix') format('embedded-opentype'),
+        url(../fonts/'Archivo-Regular.woff2') format('woff2'),
+        url(../fonts/'Archivo-Regular.woff') format('woff'),
+        url(../fonts/'Archivo-Regular.ttf') format('truetype'),
+        url(../fonts/'Archivo-Regular.svg#Archivo-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
