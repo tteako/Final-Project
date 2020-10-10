@@ -290,8 +290,10 @@ body {
     justify-content: space-around;
 }
 .camp-img {
+    background-image: url("../img/camp.jpg");
     max-width: 450px;
     width: 100%;
+    height: 400px;
 }
 .email-us {
     /* width: 40%; */
