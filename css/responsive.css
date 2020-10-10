@@ -138,6 +138,7 @@
    .middle-div {
        padding: 0px;
    }
+   .three-box-of-twelve:nth-child(2),
    .three-box-of-twelve:nth-child(3) {
        display: none;
    }
