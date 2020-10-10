@@ -149,15 +149,18 @@ body {
     margin-bottom: 18px;
 }
 .white-middle-child h4 {
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Archivo', sans-serif;
     font-weight: 700;
     line-height: 2.5em;
 }
 .white-middle-child p {
     font-size: 14px;
-    font-family: 'Archivo', sans-serif;
+    
     line-height: 20px ;
+}
+.permits-img {
+    height: 60px;
 }
 .four-box-bottom {
     height: 250px;
@@ -282,6 +285,8 @@ body {
     height: 50px;
     border: 2px solid #E76F51;
     border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+
 }
 .view-all:hover {
     cursor: pointer;
@@ -312,11 +317,13 @@ body {
     flex-direction: column;
 }
 .email-us h3 {
+    font-family: 'Archivo', sans-serif;
     font-size: 40px;
     font-weight: 900;
     line-height: 2em;
 }
 .email-us p {
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 2em;
 }
