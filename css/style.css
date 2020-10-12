@@ -412,3 +412,18 @@ body {
     color: #E76F51;
 }
 
+/* contact-page */
+.contact-page-nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #E76F51;
+    height: 30px;
+    width: 100%;
+}
+.contact-li {
+    margin-right: 30px;
+}
+.map-frame {
+    margin-top: 30px;
+}
